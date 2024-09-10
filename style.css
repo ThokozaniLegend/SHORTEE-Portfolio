@@ -58,6 +58,12 @@ nav ul li a {
     margin-bottom: 25px;
 }
 
+/* Logo styling */
+.logo {
+    width: 50px; /* Adjust based on your logo size */
+    margin-bottom: 20px;
+}
+
 .cta-button {
     padding: 15px 30px;
     background: #ff5733;
