@@ -39,6 +39,7 @@ nav ul li a {
     padding: 60px 20px;
     background-color: #4a90e2;
     color: white;
+    position: relative;
 }
 
 .intro-section .cover-image {
@@ -60,8 +61,10 @@ nav ul li a {
 
 /* Logo styling */
 .logo {
-    width: 50px; /* Adjust based on your logo size */
-    margin-bottom: 20px;
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 .cta-button {
@@ -89,16 +92,25 @@ nav ul li a {
     font-size: 36px;
 }
 
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .feature {
-    display: inline-block;
-    width: 30%;
-    margin: 10px;
-    vertical-align: top;
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .feature img {
     max-width: 100%;
-    height: auto;
+    height: 150px;
+    object-fit: contain;
     margin-bottom: 20px;
 }
 
