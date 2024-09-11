@@ -39,14 +39,13 @@ nav ul li a {
     padding: 60px 20px;
     background-color: #4a90e2;
     color: white;
-    position: relative;
 }
 
-.intro-section .cover-image {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
+/* Centered Logo */
+.logo {
+    width: 150px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .intro-section h1 {
@@ -57,14 +56,6 @@ nav ul li a {
 .intro-section p {
     font-size: 20px;
     margin-bottom: 25px;
-}
-
-/* Logo styling */
-.logo {
-    width: 100px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
 }
 
 .cta-button {
@@ -123,9 +114,31 @@ nav ul li a {
     font-size: 16px;
 }
 
+/* Demo Section */
+#demo {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#demo h2 {
+    margin-bottom: 20px;
+}
+
+#demo video {
+    width: 80%;
+    max-width: 700px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#demo p {
+    font-size: 18px;
+}
+
 /* About Section */
 #about {
-    background-color: #f4f4f4;
+    background-color: #fff;
     padding: 50px 20px;
     text-align: center;
 }
